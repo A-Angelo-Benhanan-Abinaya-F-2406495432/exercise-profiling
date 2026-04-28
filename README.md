@@ -53,5 +53,23 @@
    - Second, use efficient data structures by replacing string concatenation with Collectors.joining() which uses StringBuilder internally. 
    - Third, verify correctness after each change by hitting the endpoints directly and confirming the response data is unchanged before re-running JMeter to measure the improvement
 
+# JMETER RESULTS (OPTIMIZED)
 
+## JMETER
+### test_plan_1
+![](assets/jmeter_results_optimized/1_1.png)
+![](assets/jmeter_results_optimized/1_2.png)
+![](assets/jmeter_results_optimized/1_3.png)
+![](assets/jmeter_results_optimized/1_4.png)
 
+### test_plan_2
+![](assets/jmeter_results_optimized/2_1.png)
+![](assets/jmeter_results_optimized/2_2.png)
+![](assets/jmeter_results_optimized/2_3.png)
+![](assets/jmeter_results_optimized/2_4.png)
+
+### test_plan_3
+![](assets/jmeter_results_optimized/3_1.png)
+![](assets/jmeter_results_optimized/3_2.png)
+![](assets/jmeter_results_optimized/3_3.png)
+![](assets/jmeter_results_optimized/3_4.png)
